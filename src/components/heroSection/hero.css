@@ -1,0 +1,35 @@
+.hero-section{
+    height: 85vh;
+    background-color: grey;
+    margin-top: 5vh;
+}
+
+.form-section{
+    height: 75vh;
+    background-color: white;
+    margin-top: 5vh;
+    margin-left: 4vh;
+}
+
+.submit-btn-section{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: crimson ;
+    color: white;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: #0056aa;
+    transition: 0.5s ease;
+}
+
+button.submit-btn :focus{
+    outline: none;
+}
